@@ -33,7 +33,7 @@ public class CircularList {
         if(head==null) {
             System.out.println("Empty list");
         }
-        else if(head=head.getNext()){//Si la lista solo tiene un elemento
+        else if(head==head.getNext()){//Si la lista solo tiene un elemento
             head=null;
         }
         else {

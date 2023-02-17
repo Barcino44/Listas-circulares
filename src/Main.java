@@ -3,20 +3,19 @@ public class Main {
         CircularList list=new CircularList();
 
         list.addNode(
-                new Node("A");
-//        );
-//        list.addNode(
-//                new Node("B")
-//        );
-//        list.addNode(
-//                new Node("C")
-//        );
-//        list.addNode(
-//                new Node("D")
-//        );
+                new Node("A"));
+        list.addNode(
+                new Node("B")
+        );
+        list.addNode(
+                new Node("C")
+        );
+        list.addNode(
+                new Node("D")
+        );
         list.print();
         list.delete("D");
-        System.out.println("**");
+        System.out.println("****");
         list.print();
 
     }
